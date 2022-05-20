@@ -1,0 +1,81 @@
+/**************** GENERAL ***************/
+
+*{
+	box-sizing: border-box;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+a{
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+
+.container{
+	max-width: 500px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+/***************** HEADER ****************/
+
+header{
+background:lightblue ;
+text-align: center;
+}
+header .logo-container{
+	padding: 20px;
+}
+
+header img{
+	width: 160PX;
+}
+/**************** NAV **************/
+
+nav li a {
+	text-transform: uppercase;
+	color: white;
+	display: inline-block;
+	padding: 5px 10px;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+nav{
+	background-color:#5db2cf;
+	padding: 10px;
+}
+nav li{
+	display: inline-block;
+}
+
+/*********** GALLERY ************/
+ #gallery img{
+ 	width: 100%;
+ }
+
+ #gallery {
+ 	padding-top: 15px;
+ 	padding-bottom: 15px;
+ }
+
+ #gallery .item {
+ 	float: left;
+ 	width: 50%;
+ 	padding: 15px;
+ }
+
+
+/********* FOOTER ************/
+ footer .main{
+ 	clear: both;
+ }
